@@ -1,0 +1,16 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color:orangered;
+}
+@media screen  and (width < 600px){
+    .container{
+        background-color: lightblue;
+    }
+}
+@media screen and (width >= 600px) and (width <= 1024px){
+    .container{
+        background-color: green;
+    }
+    
+}
